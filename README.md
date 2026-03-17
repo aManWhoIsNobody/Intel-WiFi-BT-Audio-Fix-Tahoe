@@ -1,3 +1,4 @@
+*Read this in other languages: [Italiano](README.it.md)*
 # Intel-WiFi-BT-and-Audio-Fix-Tahoe
 **How to fix Intel WiFi (tested with AX210/1675) and Bluetooth with OCLP-Mod by laobamac**
 
