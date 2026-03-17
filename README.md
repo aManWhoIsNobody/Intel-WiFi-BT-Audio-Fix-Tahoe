@@ -1,4 +1,4 @@
-# Intel-WiFi-BT-and_Audio-Fix-Tahoe
+# Intel-WiFi-BT-and-Audio-Fix-Tahoe
 **How to fix Intel WiFi (tested with AX210/1675) and Bluetooth with OCLP-Mod by laobamac**
 
 Hi! I was trying to fix WiFi and Bluetooth on my Thinkpad T480 running macOS Tahoe 26.3.1 with an Intel AX210. I got a little confused and overwhelmed by all the posts and guides online, so I thought I'd write a guide myself based on what actually worked for me.
