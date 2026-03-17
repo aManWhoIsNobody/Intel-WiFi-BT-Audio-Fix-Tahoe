@@ -34,9 +34,9 @@ So che è un po' ironico, ma **avrai bisogno di una connessione internet funzion
    * `AirportItlwm.kext` *(v2.3.0_stable_Ventura)*
 
    **Per il Bluetooth:**
-   * `BlueToolFixup.kext`
-   * `IntelBTPatcher.kext`
-   * `IntelBluetoothFirmware.kext`
+   * `BlueToolFixup.kext` *(da acidanthera BrcmPatchRAM)*
+   * `IntelBTPatcher.kext` *(da lshbluesky IntelBluetoothFirmware)*
+   * `IntelBluetoothFirmware.kext` *(da lshbluesky IntelBluetoothFirmware)*
 
 > **Suggerimento:** Se stai usando ProperTree, ti consiglio di usare la funzione **OC Snapshot** (o **OC Clean Snapshot** se avevi dei kext WiFi/BT che hai eliminato da un setup/tentativo precedente).
 
@@ -144,4 +144,4 @@ Un enorme ringraziamento agli sviluppatori e alla community. Tutto questo non sa
 * **[IOSkywalkFamily.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip)** (via OCLP)
 * **[ProperTree](https://github.com/corpnewt/ProperTree)** di corpnewt
 * **[HoRNDIS](https://github.com/TomHeaven/HoRNDIS)** di TomHeaven
-  
+* **[IntelBluetoothFirmware](https://github.com/lshbluesky/IntelBluetoothFirmware)** di lshbluesky
