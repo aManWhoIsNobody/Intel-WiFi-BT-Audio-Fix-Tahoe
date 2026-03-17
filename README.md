@@ -33,9 +33,9 @@ I know it's kind of ironic, but **you will need a working internet connection** 
    * `AirportItlwm.kext` *(v2.3.0_stable_Ventura)*
 
    **For the Bluetooth:**
-   * `BlueToolFixup.kext`
-   * `IntelBTPatcher.kext`
-   * `IntelBluetoothFirmware.kext`
+   * `BlueToolFixup.kext` *(from acidanthera BrcmPatchRAM)*
+   * `IntelBTPatcher.kext` *(from lshbluesky IntelBluetoothFirmware)*
+   * `IntelBluetoothFirmware.kext` *(from lshbluesky IntelBluetoothFirmware)*
 
 > **Tip:** If you're using ProperTree, I suggest using the **OC Snapshot** feature (or **OC Clean Snapshot** if you had previous WiFi/BT kexts that you deleted from a previous setup/attempt).
 
@@ -140,4 +140,5 @@ A huge thank you to the developers and the community. This wouldn't be possible 
 * **[IO80211FamilyLegacy.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip)** (via OCLP)
 * **[IOSkywalkFamily.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip)** (via OCLP)
 * **[ProperTree](https://github.com/corpnewt/ProperTree)** by corpnewt
-* **[HoRNDIS](https://github.com/TomHeaven/HoRNDIS)** di TomHeaven
+* **[HoRNDIS](https://github.com/TomHeaven/HoRNDIS)** by TomHeaven
+* **[IntelBluetoothFirmware](https://github.com/lshbluesky/IntelBluetoothFirmware)** by lshbluesky
