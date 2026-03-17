@@ -80,6 +80,10 @@ First, you want to make sure you did everything correctly so far. Clicking the f
 * **Yellow Square (1.2):** Tells you what patches are available for your system and/or the reason(s) why you can't patch yet (e.g., SIP is enabled).
 * **Green Square (2):** The Back button.
 
+Edit: I reopned OCLP-Mod from another laptop so that I can add a screenshot where the button it's not greyed out.
+
+<img width="372" height="218" alt="Screenshot 2026-03-17 alle 16 08 22" src="https://github.com/user-attachments/assets/5bad5657-339f-4b5f-beac-67041a4fe5cc" />
+
 ### Step 3: Download and Install KDK
 If your buttons are working, go back and click the **KDK button** in the bottom left corner.
 
@@ -103,11 +107,13 @@ When the KDK finishes installing, head back to the main page of OCLP-Mod and cli
 
 <img width="378" height="247" alt="Screenshot 2026-03-17 alle 12 57 34" src="https://github.com/user-attachments/assets/f2510f5a-0bbb-4028-b329-ca9eeb7684c3" />
 
-Proceed with installing the patches by clicking the first button. 
+Proceed with installing the patches by clicking the first button 
 
 <img width="615" height="331" alt="Screenshot 2026-03-17 alle 12 46 11" src="https://github.com/user-attachments/assets/da869d98-9d9f-49d8-81a0-8e3d6eeaa158" />
 
-*(I can't remember if it asks for confirmation—I'll check on another laptop when I get the chance—but just let it do its magic).*
+and then the first button again, in blue.
+
+<img width="372" height="218" alt="Screenshot 2026-03-17 alle 16 08 22" src="https://github.com/user-attachments/assets/bff33785-bd4c-432c-a5e8-0039036a923a" />
 
 ### Step 5: Clean Up and Reboot
 When it finishes, a pop-up will show up asking you to reboot the system (it's the blue button in the bottom right corner). 
