@@ -52,6 +52,9 @@ Mentre metti mano al tuo `config.plist`, dovrai fare alcune modifiche specifiche
 2. In **NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82**, devi:
    * **Disabilitare la SIP:** Imposta `csr-active-config` su `03080000` *(assicurati che il Type sia impostato su `Data`)*.
    * **Aggiungere i seguenti boot-args:** `-amfipassbeta -ipc_control_port_options=0`
+   * **Aggiungere queste due voi sempre sotto 7C436110-AB2A-4BBB-A880-FE41995C9F82):**
+       - `bluetoothExternalDongleFailed` type `Data` e Value `00`;
+       - `bluetoothInternalControllerInfo` type `Data` e Value `00000000 00000000 00000000 0000`.
 
 *Nota:* Nel mio caso, da un precedente tentativo di sistemare WiFi/BT, ho anche i seguenti boot-args: `lilubetaall -ibtcompatbeta`. Non so se siano strettamente necessari. Sinceramente, ho dimenticato di rimuoverli e, dato che tutto sembra funzionare, li ho lasciati. Il mio consiglio: prima fai un test senza, e se qualcosa non va, prova ad aggiungerli (uno alla volta o entrambi, a te la scelta).
 
@@ -126,6 +129,8 @@ Se stavi usando un kext temporaneo (come `itlwm`) per avere l'accesso a internet
 2. **Passaggio Fondamentale:** Quando arrivi al boot picker di OpenCore, DEVI fare un **Reset NVRAM** in modo che macOS carichi correttamente le modifiche. *(Se non vedi l'opzione perché è nascosta, premi la barra `Spaziatrice`).*
 3. Il sistema si riavvierà di nuovo. Vai avanti e testa il tuo WiFi, Bluetooth e Audio!
 
+Se per caso il Bluetooth non dovesse fuzionare di solito il primo colpevole è la mappatura delle porte USB: verificate in resoconto di sistema nella sezione USB (o sempre nella sezione USB di Hackintool) se vedete tra i dispositivi USB una voce relativa al Bluetooth, se non è presente dovete rimappare le USB.
+
 > **P.S.** Se il tuo computer ha più bootloader che hanno la tendenza a scavalcare OpenCore nel menu di avvio del BIOS, ricordati di andare nel BIOS e sistemare l'ordine di avvio dopo aver resettato la NVRAM.
 
 ---
@@ -151,3 +156,4 @@ Un enorme ringraziamento agli sviluppatori e alla community. Tutto questo non sa
 * **[ProperTree](https://github.com/corpnewt/ProperTree)** di corpnewt
 * **[HoRNDIS](https://github.com/TomHeaven/HoRNDIS)** di TomHeaven
 * **[IntelBluetoothFirmware](https://github.com/lshbluesky/IntelBluetoothFirmware)** di lshbluesky
+* **[Hackintool](https://github.com/benbaker76/Hackintool)** di benbaker76
