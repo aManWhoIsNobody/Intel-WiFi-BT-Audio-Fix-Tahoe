@@ -81,6 +81,10 @@ Per prima cosa, assicurati di aver fatto tutto correttamente finora. Cliccando i
 * **Riquadro Giallo (1.2):** Ti dice quali patch sono disponibili per il tuo sistema e/o la ragione (o le ragioni) per cui non puoi ancora patchare (es. la SIP è abilitata).
 * **Riquadro Verde (2):** È il pulsante Indietro.
 
+Edit: ho riaperto OCLP-Mod da un altro portatile per aggiungere lo screenshot con i tasti tutti attivi:
+
+<img width="372" height="218" alt="Screenshot 2026-03-17 alle 16 08 22" src="https://github.com/user-attachments/assets/654eaaf7-bbc3-41a8-8828-09e91f71c6bb" />
+
 ### Step 3: Scarica e Installa il KDK
 Se i pulsanti funzionano, torna indietro e clicca il pulsante **KDK** nell'angolo in basso a sinistra.
 
@@ -104,11 +108,13 @@ Quando il KDK ha finito l'installazione, torna alla pagina principale di OCLP-Mo
 
 <img width="378" height="247" alt="Screenshot 2026-03-17 alle 12 57 34" src="https://github.com/user-attachments/assets/f2510f5a-0bbb-4028-b329-ca9eeb7684c3" />
 
-Procedi con l'installazione delle patch cliccando il primo pulsante. 
+Procedi con l'installazione delle patch cliccando il primo pulsante 
 
 <img width="615" height="331" alt="Screenshot 2026-03-17 alle 12 46 11" src="https://github.com/user-attachments/assets/da869d98-9d9f-49d8-81a0-8e3d6eeaa158" />
 
-*(Non ricordo se chiede una conferma — controllerò su un altro portatile appena ne avrò l'occasione — in ogni caso lascialo lavorare e fagli fare la sua magia).*
+e poi di nuovo sul primo, quello in blu.
+
+<img width="372" height="218" alt="Screenshot 2026-03-17 alle 16 08 22" src="https://github.com/user-attachments/assets/98ff6cf7-d128-4eaf-bbf8-87e5e50296cf" />
 
 ### Step 5: Pulizia e Riavvio
 Quando finisce, apparirà un pop-up che ti chiederà di riavviare il sistema (è il pulsante blu nell'angolo in basso a destra). 
