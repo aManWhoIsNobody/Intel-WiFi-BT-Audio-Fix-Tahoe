@@ -123,3 +123,19 @@ If you were using a temporary kext (like `itlwm`) to get internet access, **now 
 ---
 
 And that should be all! If something isn't clear enough or maybe you need help with something, I can't guarantee that I'll be able to help, but I'll be happy to try.
+
+## 🏆 Credits, Guides, Inspiration, and Recommended Software
+
+A huge thank you to the developers and the community. This wouldn't be possible without:
+
+* **[OpenCore](https://github.com/acidanthera/OpenCorePkg)** by acidanthera
+* **[OCLP-Mod](https://github.com/laobamac/OCLP-Mod)** by laobamac
+* **[itlwm](https://github.com/OpenIntelWireless/itlwm)** by OpenIntelWireless
+* **[u/Dependent-Heart420 on r/hackintosh](https://www.reddit.com/r/hackintosh/comments/1pyy0bn/all_road_lead_to_intel_native_wifi_tahoe_262/?show=original)**
+* **[Native-Wifi-for-Hackintoshes-with-Intel-Wireless-cards-on-macOS-sequoia](https://github.com/randomappleboi/Native-Wifi-for-Hackintoshes-with-Intel-Wireless-cards-on-macOS-sequoia)** by randomappleboi
+* **[Experimental Fork of OCLP 3.0.0 Nightly – modern Wi-Fi, AWDL and AppleHDA Fully Working under Tahoe](https://www.insanelymac.com/forum/topic/362042-experimental-fork-of-oclp-300-nightly-%E2%80%93-modern-wi-fi-awdl-and-applehda-fully-working-under-tahoe/#comments)** on InsanelyMac
+* **[BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)** by acidanthera
+* **[AMFIPass.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.1-RELEASE.zip)** (via OCLP)
+* **[IO80211FamilyLegacy.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip)** (via OCLP)
+* **[IOSkywalkFamily.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip)** (via OCLP)
+* **[ProperTree](https://github.com/corpnewt/ProperTree)** by corpnewt
