@@ -51,6 +51,9 @@ While you're messing around in your `config.plist`, you'll need to make a few sp
 2. In **NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82**, you need to:
    * **Disable SIP:** Set `csr-active-config` to `03080000` *(make sure the Type is set to `Data`)*.
    * **Add the following boot-args:** `-amfipassbeta -ipc_control_port_options=0`
+   * **Add this two new entries (always under 7C436110-AB2A-4BBB-A880-FE41995C9F82):**
+       - `bluetoothExternalDongleFailed` type `Data` and Value set to `00`;
+       - `bluetoothInternalControllerInfo` type `Data` and Value `00000000 00000000 00000000 0000`.
 
 *Note:* In my case, from a previous attempt at fixing WiFi/BT, I also have the following boot-args: `lilubetaall -ibtcompatbeta`. I don't know if they are strictly necessary. Honestly, I forgot to remove them, but given the fact that everything seems to be working, I left them. My advice: first test without them, and if something doesn't work, try adding them (one at a time or both, your choice).
 
@@ -125,6 +128,8 @@ If you were using a temporary kext (like `itlwm`) to get internet access, **now 
 2. **Crucial Step:** When you arrive at the OpenCore boot picker, you MUST **Reset NVRAM** so that macOS will load the changes properly. *(If you can't see the option because it's hidden, press the `Space` bar).*
 3. The system will reboot again. Go ahead and test your WiFi, Bluetooth, and Audio!
 
+If Bluetooth doesn't work, the main culprit is usually the USB port mapping: check the system report in the USB section (or always in the USB section of Hackintool) to see if you see an entry for Bluetooth among the USB devices. If it isn't there, you need to remap the USB ports.
+
 > **P.S.** If your computer has multiple bootloaders that have a tendency to overthrow OpenCore in the BIOS boot menu, remember to go into your BIOS and fix the boot order after resetting the NVRAM.
 
 ---
@@ -148,3 +153,4 @@ A huge thank you to the developers and the community. This wouldn't be possible 
 * **[ProperTree](https://github.com/corpnewt/ProperTree)** by corpnewt
 * **[HoRNDIS](https://github.com/TomHeaven/HoRNDIS)** by TomHeaven
 * **[IntelBluetoothFirmware](https://github.com/lshbluesky/IntelBluetoothFirmware)** by lshbluesky
+* **[Hackintool](https://github.com/benbaker76/Hackintool)** by benbaker76
